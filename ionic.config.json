@@ -1,0 +1,7 @@
+{
+  "name": "sticky-quotes",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
