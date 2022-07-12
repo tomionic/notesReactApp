@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "sticky-quotes",
+	"webDir": "build",
+	"bundledWebRuntime": false
+}
