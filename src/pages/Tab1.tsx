@@ -63,6 +63,7 @@ const Tab1: React.FC = () => {
           </IonButtons>
         </IonToolbar>
       </IonHeader>
+      <IonItem>Storage Test</IonItem>
       {/* test add note without modal */}
       <IonItem>{notes.length}</IonItem>
       <IonItem>
