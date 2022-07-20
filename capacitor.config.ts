@@ -2,7 +2,7 @@ import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'io.ionic.starter',
-  appName: 'sticky-quotes',
+  appName: 'notes-demo',
   webDir: 'build',
   bundledWebRuntime: false
 };

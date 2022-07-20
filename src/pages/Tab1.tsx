@@ -33,7 +33,23 @@ const Tab1: React.FC = () => {
 
   const [notes, setNotes] = useState(testData);
 
-  function addOne() {
+  // function addOne() {
+  //   setNotes((prevNotes) => [
+  //     ...prevNotes,
+  //     {
+  //       text: noteInput,
+  //       level: prevNotes.length + 1
+  //     },
+  //   ]);
+  //   //modal.current?.dismiss(input.current?.value, 'confirm');
+  //   modal.current?.dismiss();
+  //   console.log(notes);
+  // };
+
+  // Bug workaround from Jameson
+
+  async function addOne() {
+    await modal.current?.dismiss();
     setNotes((prevNotes) => [
       ...prevNotes,
       {
@@ -41,10 +57,7 @@ const Tab1: React.FC = () => {
         level: prevNotes.length + 1
       },
     ]);
-    //modal.current?.dismiss(input.current?.value, 'confirm');
-    modal.current?.dismiss();
-    console.log(notes);
-  };
+  }
 
   return (
     <IonPage>

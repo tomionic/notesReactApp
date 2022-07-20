@@ -1,6 +1,6 @@
 {
 	"appId": "io.ionic.starter",
-	"appName": "sticky-quotes",
+	"appName": "notes-demo",
 	"webDir": "build",
 	"bundledWebRuntime": false
 }
